@@ -1,0 +1,6 @@
+This is a simple php worker example using `exec` and `nohup` with a common log file between the web
+process and worker process.
+
+The worker process continues after the web request has returned a complete result and hung up.
+
+Tested on Ubuntu 22.04 with Apache2 and `php_module`.
